@@ -1,18 +1,6 @@
 defmodule RDF.Vocab do
   @moduledoc """
-  Documentation for RDF.Vocab.
+  A collection of `RDF.Namespace`s for various popular or important vocabularies.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> RDF.Vocab.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
