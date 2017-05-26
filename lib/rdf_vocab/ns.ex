@@ -8,7 +8,10 @@ defmodule RDF.Vocab.NS do
   """
   defvocab DC,
     base_uri: "http://purl.org/dc/terms/",
-    file: "dcterms.nt"
-    # TODO: handle terms with special characters: ISO639-2, ISO639-3
+    file: "dcterms.nt",
+    alias: [
+      ISO639_2: "ISO639-2",
+      ISO639_3: "ISO639-3"
+    ]
 
 end
