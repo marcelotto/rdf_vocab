@@ -23,4 +23,14 @@ defmodule RDF.Vocab.NS do
     base_uri: "http://purl.org/dc/elements/1.1/",
     file: "dce.nt"
 
+  @vocabdoc """
+  The DCMI Type vocabulary.
+
+  See <http://purl.org/dc/dcmitype/>
+  """
+  defvocab DCType,
+    base_uri: "http://purl.org/dc/dcmitype/",
+    file: "dctype.nt"
+
+
 end
