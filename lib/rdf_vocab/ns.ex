@@ -33,4 +33,14 @@ defmodule RDF.Vocab.NS do
     file: "dctype.nt"
 
 
+  @vocabdoc """
+  The Friend of a Friend (FOAF) vocabulary.
+
+  See <http://xmlns.com/foaf/spec/>
+  """
+  defvocab FOAF,
+    base_uri: "http://xmlns.com/foaf/0.1/",
+    file: "foaf.nt"
+
+
 end
