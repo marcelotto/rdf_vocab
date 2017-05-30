@@ -43,4 +43,26 @@ defmodule RDF.Vocab.NS do
     file: "foaf.nt"
 
 
+  @vocabdoc """
+  The Description of a Project (DOAP) vocabulary.
+
+  See <https://github.com/ewilderj/doap>
+  """
+  defvocab DOAP,
+    base_uri: "http://usefulinc.com/ns/doap#",
+    file: "doap.nt",
+    alias: [
+      old_homepage:         "old-homepage",
+      download_page:        "download-page",
+      download_mirror:      "download-mirror",
+      bug_database:         "bug-database",
+      anon_root:            "anon-root",
+      developer_forum:      "developer-forum",
+      support_forum:        "support-forum",
+      programming_language: "programming-language",
+      service_endpoint:     "service-endpoint",
+      file_release:         "file-release",
+      mailing_list:         "mailing-list",
+    ]
+
 end
