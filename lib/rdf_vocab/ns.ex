@@ -65,4 +65,14 @@ defmodule RDF.Vocab.NS do
       mailing_list:         "mailing-list",
     ]
 
+
+  @vocabdoc """
+  The W3C PROVenance vocabulary.
+
+  See <http://www.w3.org/TR/prov-o/>
+  """
+  defvocab PROV,
+    base_uri: "http://www.w3.org/ns/prov#",
+    file: "prov.nt"
+
 end
