@@ -14,4 +14,13 @@ defmodule RDF.Vocab.NS do
       ISO639_3: "ISO639-3"
     ]
 
+  @vocabdoc """
+  The Dublin Core Metadata Element Set, Version 1.1 vocabulary.
+
+  See <http://purl.org/dc/elements/1.1/>
+  """
+  defvocab DCE,
+    base_uri: "http://purl.org/dc/elements/1.1/",
+    file: "dce.nt"
+
 end
