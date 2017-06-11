@@ -8,10 +8,6 @@ defmodule RDF.Vocab.Mixfile do
       app: :rdf_vocab,
       version: @version,
       description: "A collection of RDF.Namespaces for various popular or important vocabularies",
-      build_path: "../../_build",
-      config_path: "../../config/config.exs",
-      deps_path: "../../deps",
-      lockfile: "../../mix.lock",
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -37,7 +33,7 @@ defmodule RDF.Vocab.Mixfile do
 
   defp deps do
     [
-      {:rdf_core, in_umbrella: true},
+      {:rdf, path: "../rdf"},
       {:ex_doc, "~> 0.14", only: :dev},
       {:mix_test_watch, "~> 0.3", only: :dev},
     ]
