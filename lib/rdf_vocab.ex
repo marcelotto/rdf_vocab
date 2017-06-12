@@ -108,4 +108,15 @@ defmodule RDF.Vocab do
     file: "vs.nt"
 
 
+  @vocabdoc """
+  The vocabulary for annotating vocabulary descriptions (VANN).
+
+  See <http://vocab.org/vann/>
+  """
+  defvocab VANN,
+    base_uri: "http://purl.org/vocab/vann/",
+    file: "vann.nt",
+    alias: [VANN_20040305: "vann-vocab-20040305"]
+
+
 end
