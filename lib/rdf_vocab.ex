@@ -90,4 +90,14 @@ defmodule RDF.Vocab do
     file: "dcat.nt"
 
 
+  @vocabdoc """
+  The Vocabulary of Interlinked Datasets (VoID).
+
+  See <http://vocab.deri.ie/void>
+  """
+  defvocab VoID,
+    base_uri: "http://rdfs.org/ns/void#",
+    file: "void.nt"
+
+
 end
