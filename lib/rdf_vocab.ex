@@ -119,4 +119,14 @@ defmodule RDF.Vocab do
     alias: [VANN_20040305: "vann-vocab-20040305"]
 
 
+  @vocabdoc """
+  The Semantically-Interlinked Online Communities (SIOC) vocabulary.
+
+  See <http://rdfs.org/sioc/spec/>
+  """
+  defvocab SIOC,
+    base_uri: "http://rdfs.org/sioc/ns#",
+    file: "sioc.nt"
+
+
 end
