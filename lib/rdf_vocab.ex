@@ -100,4 +100,12 @@ defmodule RDF.Vocab do
     file: "void.nt"
 
 
+  @vocabdoc """
+  The SemWeb Vocab Status ontology.
+  """
+  defvocab VS,
+    base_uri: "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    file: "vs.nt"
+
+
 end
