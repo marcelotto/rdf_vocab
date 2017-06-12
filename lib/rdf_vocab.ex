@@ -79,4 +79,15 @@ defmodule RDF.Vocab do
     base_uri: "http://www.w3.org/ns/prov#",
     file: "prov.nt"
 
+
+  @vocabdoc """
+  The data catalog (DCAT) vocabulary.
+
+  See <http://www.w3.org/TR/vocab-dcat/>
+  """
+  defvocab DCAT,
+    base_uri: "http://www.w3.org/ns/dcat#",
+    file: "dcat.nt"
+
+
 end
