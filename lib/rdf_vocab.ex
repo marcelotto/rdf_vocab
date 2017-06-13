@@ -129,4 +129,14 @@ defmodule RDF.Vocab do
     file: "sioc.nt"
 
 
+  @vocabdoc """
+  The Schema.org vocabulary.
+
+  See <http://schema.org>
+  """
+  defvocab Schema,
+    base_uri: "http://schema.org/",
+    file: "schema.nt",
+    case_violations: :ignore
+
 end
