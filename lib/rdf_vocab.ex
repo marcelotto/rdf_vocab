@@ -158,4 +158,14 @@ defmodule RDF.Vocab do
       NAryRelations: "N-Ary-Relations",
     ]
 
+
+  @vocabdoc """
+  The Creative Commons Rights Expression Language vocabulary.
+
+  See <https://creativecommons.org/ns>
+  """
+  defvocab CC,
+    base_uri: "http://creativecommons.org/ns#",
+    file: "cc.nt"
+
 end
