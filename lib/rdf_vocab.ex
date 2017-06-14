@@ -139,4 +139,23 @@ defmodule RDF.Vocab do
     file: "schema.nt",
     case_violations: :ignore
 
+
+  @vocabdoc """
+  The GoodRelations vocabulary.
+
+  See <http://www.heppnetz.de/ontologies/goodrelations/v1>
+  """
+  defvocab GR,
+    base_uri: "http://purl.org/goodrelations/v1#",
+    file: "gr.nt",
+    alias: [
+      hasEAN_UCC13: "hasEAN_UCC-13",
+      hasGTIN8: "hasGTIN-8",
+      hasGTIN14: "hasGTIN-14",
+      LaborBringIn: "Labor-BringIn",
+      PartsAndLaborBringIn: "PartsAndLabor-BringIn",
+      PartsAndLaborPickUp: "PartsAndLabor-PickUp",
+      NAryRelations: "N-Ary-Relations",
+    ]
+
 end
