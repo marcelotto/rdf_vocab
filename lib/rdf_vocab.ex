@@ -81,6 +81,16 @@ defmodule RDF.Vocab do
 
 
   @vocabdoc """
+  The Data Cube vocabulary.
+
+  See <https://www.w3.org/TR/vocab-data-cube/>
+  """
+  defvocab QB,
+    base_uri: "http://purl.org/linked-data/cube#",
+    file: "cube.nt"
+
+
+  @vocabdoc """
   The data catalog (DCAT) vocabulary.
 
   See <http://www.w3.org/TR/vocab-dcat/>
