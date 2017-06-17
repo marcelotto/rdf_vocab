@@ -119,6 +119,16 @@ defmodule RDF.Vocab do
 
 
   @vocabdoc """
+  The Vocabulary of a Friend (VOAF).
+
+  See <http://lov.okfn.org/vocommons/voaf>
+  """
+  defvocab VOAF,
+    base_uri: "http://purl.org/vocommons/voaf#",
+    file: "voaf.nt"
+
+
+  @vocabdoc """
   The vocabulary for annotating vocabulary descriptions (VANN).
 
   See <http://vocab.org/vann/>
