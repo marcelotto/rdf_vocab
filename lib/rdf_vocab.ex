@@ -204,4 +204,16 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Bibliographic Ontology (BIBO).
+
+  See <http://bibliontology.com/>
+  """
+  defvocab BIBO,
+    base_uri: "http://purl.org/ontology/bibo/",
+    file: "bibo.nt",
+    ignore: ~w[bdarcus fgiasson],
+    case_violations: :fail
+
+
 end
