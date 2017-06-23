@@ -16,7 +16,8 @@ defmodule RDF.Vocab do
     alias: [
       ISO639_2: "ISO639-2",
       ISO639_3: "ISO639-3"
-    ]
+    ],
+    case_violations: :fail
 
   @vocabdoc """
   The Dublin Core Metadata Element Set, Version 1.1 vocabulary.
@@ -25,7 +26,8 @@ defmodule RDF.Vocab do
   """
   defvocab DCE,
     base_uri: "http://purl.org/dc/elements/1.1/",
-    file: "dce.nt"
+    file: "dce.nt",
+    case_violations: :fail
 
   @vocabdoc """
   The DCMI Type vocabulary.
@@ -34,7 +36,8 @@ defmodule RDF.Vocab do
   """
   defvocab DCType,
     base_uri: "http://purl.org/dc/dcmitype/",
-    file: "dctype.nt"
+    file: "dctype.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -44,7 +47,8 @@ defmodule RDF.Vocab do
   """
   defvocab FOAF,
     base_uri: "http://xmlns.com/foaf/0.1/",
-    file: "foaf.nt"
+    file: "foaf.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -67,7 +71,8 @@ defmodule RDF.Vocab do
       service_endpoint:     "service-endpoint",
       file_release:         "file-release",
       mailing_list:         "mailing-list",
-    ]
+    ],
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -77,7 +82,8 @@ defmodule RDF.Vocab do
   """
   defvocab PROV,
     base_uri: "http://www.w3.org/ns/prov#",
-    file: "prov.nt"
+    file: "prov.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -87,7 +93,8 @@ defmodule RDF.Vocab do
   """
   defvocab QB,
     base_uri: "http://purl.org/linked-data/cube#",
-    file: "cube.nt"
+    file: "cube.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -97,7 +104,8 @@ defmodule RDF.Vocab do
   """
   defvocab DCAT,
     base_uri: "http://www.w3.org/ns/dcat#",
-    file: "dcat.nt"
+    file: "dcat.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -107,7 +115,8 @@ defmodule RDF.Vocab do
   """
   defvocab VoID,
     base_uri: "http://rdfs.org/ns/void#",
-    file: "void.nt"
+    file: "void.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -115,7 +124,8 @@ defmodule RDF.Vocab do
   """
   defvocab VS,
     base_uri: "http://www.w3.org/2003/06/sw-vocab-status/ns#",
-    file: "vs.nt"
+    file: "vs.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -125,7 +135,8 @@ defmodule RDF.Vocab do
   """
   defvocab VOAF,
     base_uri: "http://purl.org/vocommons/voaf#",
-    file: "voaf.nt"
+    file: "voaf.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -146,7 +157,8 @@ defmodule RDF.Vocab do
   """
   defvocab SIOC,
     base_uri: "http://rdfs.org/sioc/ns#",
-    file: "sioc.nt"
+    file: "sioc.nt",
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -176,7 +188,8 @@ defmodule RDF.Vocab do
       PartsAndLaborBringIn: "PartsAndLabor-BringIn",
       PartsAndLaborPickUp: "PartsAndLabor-PickUp",
       NAryRelations: "N-Ary-Relations",
-    ]
+    ],
+    case_violations: :ignore
 
 
   @vocabdoc """
