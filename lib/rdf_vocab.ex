@@ -147,7 +147,8 @@ defmodule RDF.Vocab do
   defvocab VANN,
     base_uri: "http://purl.org/vocab/vann/",
     file: "vann.nt",
-    alias: [VANN_20040305: "vann-vocab-20040305"]
+    ignore: ~w[vann-vocab-20040305],
+    case_violations: :fail
 
 
   @vocabdoc """
@@ -199,6 +200,8 @@ defmodule RDF.Vocab do
   """
   defvocab CC,
     base_uri: "http://creativecommons.org/ns#",
-    file: "cc.nt"
+    file: "cc.nt",
+    case_violations: :fail
+
 
 end
