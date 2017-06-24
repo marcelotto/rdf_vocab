@@ -403,4 +403,16 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Hydra Core vocabulary.
+
+  See <https://www.hydra-cg.com/spec/latest/core/>
+  """
+  defvocab Hydra,
+    base_uri: "http://www.w3.org/ns/hydra/core#",
+    file: "hydra.nt",
+    # TODO: Hydra.Rfc6570Template is a rdfs:Datatype AND a rdf:Property by using rdfs:range ... !?
+    case_violations: :ignore 
+
+
 end
