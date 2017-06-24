@@ -381,4 +381,15 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The WGS84 Geo Positioning vocabulary.
+
+  See <https://www.w3.org/2003/01/geo/>
+  """
+  defvocab Geo,
+    base_uri: "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    file: "geo.nt",
+    case_violations: :fail
+
+
 end
