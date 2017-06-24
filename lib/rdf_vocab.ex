@@ -415,4 +415,16 @@ defmodule RDF.Vocab do
     case_violations: :ignore 
 
 
+  @vocabdoc """
+  The Linked Data Platform (LDP) vocabulary.
+
+  See <https://www.w3.org/TR/ldp/>
+  """
+  defvocab LDP,
+    base_uri: "http://www.w3.org/ns/ldp#",
+    file: "ldp.nt",
+    # TODO: LDP.PreferEmptyContainer is a owl:Individual AND a rdf:Property by using owl:equivalentProperty ... !?
+    case_violations: :ignore 
+
+
 end
