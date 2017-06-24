@@ -309,4 +309,25 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Exif data description vocabulary.
+
+  Note that the original definition was changed, since it seems to contain some bugs:
+
+  - The following properties are defined as `rdfs:subPropertyOf exif:subseconds`, 
+    since the actually defined `exif:subsecond` does not exist:
+    - `exif:subSecTime`
+    - `exif:subSecTimeOriginal`
+    - `exif:subSecTimeDigitized`
+  - All usages of the property `exif:tagNumber` are replaced with `exif:tag_number`, 
+    since this is the actually defined property, while `exif:tagNumber` is not defined.
+
+  See <https://www.w3.org/2003/12/exif/>
+  """
+  defvocab EXIF,
+    base_uri: "http://www.w3.org/2003/12/exif/ns#",
+    file: "exif.nt",
+    case_violations: :fail
+
+
 end
