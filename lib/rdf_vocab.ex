@@ -330,4 +330,31 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Music Ontology.
+  
+  See <http://musicontology.com/specification/>
+  """
+  defvocab MO,
+    base_uri: "http://purl.org/ontology/mo/",
+    file: "mo.nt",
+    alias: [
+      Album: "album",
+      Audiobook: "audiobook",
+      Bootleg: "bootleg",
+      Compilation: "compilation",
+      EP: "ep",
+      Interview: "interview",
+      Live: "live",
+      Official: "official",
+      Promotion: "promotion",
+      Remix: "remix",
+      Single: "single",
+      Soundtrack: "soundtrack",
+      Spokenword: "spokenword",
+    ],
+    ignore: ~w[mit], # a different vocabulary for musical instruments
+    case_violations: :ignore
+
+
 end
