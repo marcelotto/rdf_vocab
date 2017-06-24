@@ -289,4 +289,13 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Content vocabulary.
+  """
+  defvocab CNT,
+    base_uri: "http://www.w3.org/2011/content#",
+    file: "cnt.nt",
+    case_violations: :fail
+
+
 end
