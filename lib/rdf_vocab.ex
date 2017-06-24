@@ -234,4 +234,31 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The vCard Ontology.
+  
+  See <https://www.w3.org/TR/vcard-rdf/>
+  """
+  defvocab VCard,
+    base_uri: "http://www.w3.org/2006/vcard/ns#",
+    file: "vcard.nt",
+    alias: [
+      additional_name: "additional-name",
+      country_name: "country-name",
+      extended_address: "extended-address",
+      family_name: "family-name",
+      given_name: "given-name",
+      honorific_suffix: "honorific-suffix",
+      honorific_prefix: "honorific-prefix",
+      organization_name: "organization-name",
+      organization_unit: "organization-unit",
+      postal_code: "postal-code",
+      post_office_box: "post-office-box",
+      street_address: "street-address",
+      sort_string: "sort-string",
+      fn_: "fn", # fn collides with Elixirs fn 
+    ],
+    case_violations: :fail
+
+
 end
