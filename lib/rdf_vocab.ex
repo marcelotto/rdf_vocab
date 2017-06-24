@@ -298,4 +298,15 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Ontology for Media Resources 1.0.
+
+  See <https://www.w3.org/TR/mediaont-10/>
+  """
+  defvocab MA,
+    base_uri: "http://www.w3.org/ns/ma-ont#",
+    file: "ma.nt",
+    case_violations: :fail
+
+
 end
