@@ -216,4 +216,22 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The biographical information (BIO) vocabulary.
+
+  See <http://vocab.org/bio/>
+  """
+  defvocab BIO,
+    base_uri: "http://purl.org/vocab/bio/0.1/",
+    file: "bio.nt",
+    alias: [
+      Termgroup1: "termgroup1",
+      Termgroup2: "termgroup2",
+      Termgroup3: "termgroup3",
+      Termgroup4: "termgroup4",
+      Termgroup5: "termgroup5",
+    ],
+    case_violations: :fail
+
+
 end
