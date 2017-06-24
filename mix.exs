@@ -1,29 +1,44 @@
 defmodule RDF.Vocab.Mixfile do
   use Mix.Project
 
-  @version "0.0.1"
+  @repo_url "https://github.com/marcelotto/rdf_vocab"
+
+  @version "0.1.0"
 
   def project do
     [
       app: :rdf_vocab,
       version: @version,
-      description: "A collection of RDF.Namespaces for various popular or important vocabularies",
-      elixir: "~> 1.4",
+      elixir: "~> 1.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
+      deps: deps(),
+
+      # Hex
       package: package(),
-      deps: deps()
-    ]
+      description: description(),
+
+      # Docs
+      name: "RDF.Vocab",
+      docs: [
+        source_url: @repo_url,
+        source_ref: "v#{@version}",
+        extras: ["README.md"],
+      ]    ]
+  end
+
+  defp description do
+    """
+    A collection of RDF.ex namespaces for various vocabularies.
+    """
   end
 
   defp package do
     [
-      name: :rdf_vocab,
       maintainers: ["Marcel Otto"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/rdfex/rdf_vocab",
-               "Docs"   => "http://rdfex.github.io/rdf_vocab)/"},
-      files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"]
+      links: %{"GitHub" => @repo_url},
+      files: ~w[lib priv mix.exs README.md LICENSE.md]
     ]
   end
 
@@ -33,7 +48,7 @@ defmodule RDF.Vocab.Mixfile do
 
   defp deps do
     [
-      {:rdf, path: "../rdf"},
+      {:rdf, "~> 0.1"},
       {:ex_doc, "~> 0.14", only: :dev},
       {:mix_test_watch, "~> 0.3", only: :dev},
     ]
