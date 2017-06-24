@@ -1,11 +1,12 @@
 # RDF.Vocab
 
-**TODO: Add description**
+A collection of [RDF.ex](https://hex.pm/packages/rdf) namespaces for various popular or otherwise important vocabularies.
+
+The available vocabularies can be found [here](http://hexdocs.pm/rdf_vocab). For more information about RDF.ex namespaces in general, please refer to the  [documentation](https://hexdocs.pm/rdf/) of RDF.ex.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `rdf_vocab` to your list of dependencies in `mix.exs`:
+[RDF.Vocab](https://hex.pm/packages/rdf_vocab) can be installed as usual, by adding `rdf_vocab` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -13,7 +14,12 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/rdf_vocab](https://hexdocs.pm/rdf_vocab).
 
+## Contributing
+
+If you think a popular or otherwise important vocabulary is missing, you can recommend its inclusion by creating an [issue](https://github.com/marcelotto/rdf_vocab/issues/new) or a pull request.
+
+
+## License and Copyright
+
+(c) 2017 Marcel Otto. MIT Licensed, see [LICENSE](LICENSE.md) for details.
