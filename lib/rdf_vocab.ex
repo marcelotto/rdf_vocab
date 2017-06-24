@@ -261,4 +261,15 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Organization Ontology.
+
+  See <https://www.w3.org/TR/vocab-org/>
+  """
+  defvocab Org,
+    base_uri: "http://www.w3.org/ns/org#",
+    file: "org.nt",
+    case_violations: :fail
+
+
 end
