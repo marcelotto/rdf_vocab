@@ -357,4 +357,28 @@ defmodule RDF.Vocab do
     case_violations: :ignore
 
 
+  @vocabdoc """
+  The Time Ontology.
+  
+  See <https://www.w3.org/TR/owl-time/>
+  """
+  defvocab Time,
+    base_uri: "http://www.w3.org/2006/time#",
+    file: "time.nt",
+    alias: [
+      GeneralDay:   "generalDay",
+      GeneralMonth: "generalMonth",
+      GeneralYear:  "generalYear",
+      UnitSecond:   "unitSecond",
+      UnitMinute:   "unitMinute",
+      UnitHour:     "unitHour",
+      UnitDay:      "unitDay",
+      UnitMonth:    "unitMonth",
+      UnitYear:     "unitYear",
+      UnitWeek:     "unitWeek",
+    ],
+    ignore: ~w[2006 2016],
+    case_violations: :fail
+
+
 end
