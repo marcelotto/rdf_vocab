@@ -392,4 +392,15 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The GeoJSON-LD 1.0 vocabulary.
+
+  See <http://geojson.org/geojson-ld/>
+  """
+  defvocab GeoJSON,
+    base_uri: "https://purl.org/geojson/vocab#",
+    file: "geojson.nt",
+    case_violations: :fail
+
+
 end

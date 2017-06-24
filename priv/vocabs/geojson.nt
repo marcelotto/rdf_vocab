@@ -1,0 +1,70 @@
+<https://purl.org/geojson/vocab#Polygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#Polygon> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.6."@en .
+<https://purl.org/geojson/vocab#Polygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#Polygon> <http://www.w3.org/2000/01/rdf-schema#label> "Polygon"@en .
+<https://purl.org/geojson/vocab#LineString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#LineString> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.4."@en .
+<https://purl.org/geojson/vocab#LineString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#LineString> <http://www.w3.org/2000/01/rdf-schema#label> "LineString"@en .
+<https://purl.org/geojson/vocab#coordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#coordinates> <http://www.w3.org/2000/01/rdf-schema#comment> "RFC 7946 Section 3.1.1."@en .
+<https://purl.org/geojson/vocab#coordinates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#coordinates> <http://www.w3.org/2000/01/rdf-schema#label> "coordinates"@en .
+<https://purl.org/geojson/vocab#MultiLineString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#MultiLineString> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.5."@en .
+<https://purl.org/geojson/vocab#MultiLineString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#MultiLineString> <http://www.w3.org/2000/01/rdf-schema#label> "MultiLineString"@en .
+<https://purl.org/geojson/vocab#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.2."@en .
+<https://purl.org/geojson/vocab#Feature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature"@en .
+<https://purl.org/geojson/vocab#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#type> <http://www.w3.org/2000/01/rdf-schema#comment> "RFC 7946 Section 3."@en .
+<https://purl.org/geojson/vocab#type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#type> <http://www.w3.org/2000/01/rdf-schema#label> "type"@en .
+<https://purl.org/geojson/vocab#geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "RFC 7946 Section 3.2."@en .
+<https://purl.org/geojson/vocab#geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#geometry> <http://www.w3.org/2000/01/rdf-schema#label> "geometry"@en .
+<https://purl.org/geojson/vocab#Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#Point> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.2."@en .
+<https://purl.org/geojson/vocab#Point> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#Point> <http://www.w3.org/2000/01/rdf-schema#label> "Point"@en .
+<https://purl.org/geojson/vocab#GeometryCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#GeometryCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.8."@en .
+<https://purl.org/geojson/vocab#GeometryCollection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#GeometryCollection> <http://www.w3.org/2000/01/rdf-schema#label> "GeometryCollection"@en .
+<http://purl.org/geojson/vocab#> <http://purl.org/dc/elements/1.1/title> "GeoJSON-LD vocabulary" .
+<http://purl.org/geojson/vocab#> <http://purl.org/dc/elements/1.1/format> "application/rdf+xml" .
+<http://purl.org/geojson/vocab#> <http://purl.org/dc/elements/1.1/rights> "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA." .
+<http://purl.org/geojson/vocab#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/geojson/vocab#> <http://purl.org/dc/elements/1.1/description> "A description of the RFC 7946 GeoJSON model. See https://github.com/geojson/geojson-ld for vocabulary developments." .
+<http://purl.org/geojson/vocab#> <http://purl.org/dc/elements/1.1/creator> "Sean Gillies" .
+<https://purl.org/geojson/vocab#FeatureCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#FeatureCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.3."@en .
+<https://purl.org/geojson/vocab#FeatureCollection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#FeatureCollection> <http://www.w3.org/2000/01/rdf-schema#label> "FeatureCollection"@en .
+<https://purl.org/geojson/vocab#features> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#features> <http://www.w3.org/2000/01/rdf-schema#comment> "RFC 7946 Section 3.3."@en .
+<https://purl.org/geojson/vocab#features> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#features> <http://www.w3.org/2000/01/rdf-schema#label> "features"@en .
+<https://purl.org/geojson/vocab#bbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#bbox> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 5."@en .
+<https://purl.org/geojson/vocab#bbox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#bbox> <http://www.w3.org/2000/01/rdf-schema#label> "bbox"@en .
+<https://purl.org/geojson/vocab#MultiPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#MultiPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.3."@en .
+<https://purl.org/geojson/vocab#MultiPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#MultiPoint> <http://www.w3.org/2000/01/rdf-schema#label> "MultiPoint"@en .
+<https://purl.org/geojson/vocab#MultiPolygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://purl.org/geojson/vocab#MultiPolygon> <http://www.w3.org/2000/01/rdf-schema#comment> "See RFC 7946 Section 3.1.7."@en .
+<https://purl.org/geojson/vocab#MultiPolygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#MultiPolygon> <http://www.w3.org/2000/01/rdf-schema#label> "MultiPolygon"@en .
+<https://purl.org/geojson/vocab#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#id> <http://www.w3.org/2000/01/rdf-schema#comment> "RFC 7946 Section 3.2."@en .
+<https://purl.org/geojson/vocab#id> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#id> <http://www.w3.org/2000/01/rdf-schema#label> "id"@en .
+<https://purl.org/geojson/vocab#properties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://purl.org/geojson/vocab#properties> <http://www.w3.org/2000/01/rdf-schema#comment> "RFC 7946 Section 3.2."@en .
+<https://purl.org/geojson/vocab#properties> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/geojson/vocab#> .
+<https://purl.org/geojson/vocab#properties> <http://www.w3.org/2000/01/rdf-schema#label> "properties"@en .
