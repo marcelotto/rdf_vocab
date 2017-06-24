@@ -272,4 +272,21 @@ defmodule RDF.Vocab do
     case_violations: :fail
 
 
+  @vocabdoc """
+  The Vocabulary for Rich Site Summary (RSS) 1.0.
+
+  See <http://web.resource.org/rss/1.0/>
+  """
+  defvocab RSS,
+    base_uri: "http://purl.org/rss/1.0/",
+    file: "rss.nt",
+    alias: [
+      Channel: "channel",
+      Image: "image",
+      Item: "item",
+      TextInput: "textinput",
+    ],
+    case_violations: :fail
+
+
 end
