@@ -1,5 +1,9 @@
 # RDF.Vocab
 
+[![Travis](https://img.shields.io/travis/marcelotto/rdf_vocab.svg?style=flat-square)](https://travis-ci.org/marcelotto/rdf_vocab)
+[![Hex.pm](https://img.shields.io/hexpm/v/rdf_vocab.svg?style=flat-square)](https://hex.pm/packages/rdf_vocab)
+
+
 A collection of [RDF.ex](https://hex.pm/packages/rdf) namespaces for various popular or otherwise important vocabularies.
 
 The available vocabularies can be found [here](http://hexdocs.pm/rdf_vocab). For more information about RDF.ex namespaces in general, please refer to the  [documentation](https://hexdocs.pm/rdf/) of RDF.ex.
