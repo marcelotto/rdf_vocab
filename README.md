@@ -10,11 +10,11 @@ The available vocabularies can be found [here](http://hexdocs.pm/rdf_vocab). For
 
 ## Installation
 
-[RDF.Vocab](https://hex.pm/packages/rdf_vocab) can be installed as usual, by adding `rdf_vocab` to your list of dependencies in `mix.exs`:
+The [RDF.Vocab](https://hex.pm/packages/rdf_vocab) Hex package can be installed as usual, by adding `rdf_vocab` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:rdf_vocab, "~> 0.1.0"}]
+  [{:rdf_vocab, "~> 0.1"}]
 end
 ```
 
