@@ -3,7 +3,7 @@ defmodule RDF.Vocab.Mixfile do
 
   @repo_url "https://github.com/marcelotto/rdf_vocab"
 
-  @version "0.1.0"
+  @version "0.2.0"
 
   def project do
     [

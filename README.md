@@ -6,7 +6,7 @@
 
 A collection of [RDF.ex](https://hex.pm/packages/rdf) namespaces for various popular or otherwise important vocabularies.
 
-The available vocabularies can be found [here](http://hexdocs.pm/rdf_vocab). For more information about RDF.ex namespaces in general, please refer to the  [documentation](https://hexdocs.pm/rdf/) of RDF.ex.
+The available vocabularies can be found [here](http://hexdocs.pm/rdf_vocab). For more information about RDF.ex namespaces in general, please refer to the [documentation](https://hexdocs.pm/rdf/) of RDF.ex.
 
 ## Installation
 
@@ -14,7 +14,7 @@ The [RDF.Vocab](https://hex.pm/packages/rdf_vocab) Hex package can be installed 
 
 ```elixir
 def deps do
-  [{:rdf_vocab, "~> 0.1"}]
+  [{:rdf_vocab, "~> 0.2"}]
 end
 ```
 
