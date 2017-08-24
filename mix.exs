@@ -9,7 +9,7 @@ defmodule RDF.Vocab.Mixfile do
     [
       app: :rdf_vocab,
       version: @version,
-      elixir: "~> 1.3",
+      elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: deps(),
@@ -48,9 +48,8 @@ defmodule RDF.Vocab.Mixfile do
 
   defp deps do
     [
-      {:rdf, "~> 0.1"},
+      {:rdf, "~> 0.3"},
       {:ex_doc, "~> 0.14", only: :dev},
-      {:mix_test_watch, "~> 0.3", only: :dev},
     ]
   end
 end

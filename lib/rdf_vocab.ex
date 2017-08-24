@@ -11,7 +11,7 @@ defmodule RDF.Vocab do
   See <http://purl.org/dc/terms/>
   """
   defvocab DC,
-    base_uri: "http://purl.org/dc/terms/",
+    base_iri: "http://purl.org/dc/terms/",
     file: "dcterms.nt",
     alias: [
       ISO639_2: "ISO639-2",
@@ -25,7 +25,7 @@ defmodule RDF.Vocab do
   See <http://purl.org/dc/elements/1.1/>
   """
   defvocab DCE,
-    base_uri: "http://purl.org/dc/elements/1.1/",
+    base_iri: "http://purl.org/dc/elements/1.1/",
     file: "dce.nt",
     case_violations: :fail
 
@@ -35,7 +35,7 @@ defmodule RDF.Vocab do
   See <http://purl.org/dc/dcmitype/>
   """
   defvocab DCType,
-    base_uri: "http://purl.org/dc/dcmitype/",
+    base_iri: "http://purl.org/dc/dcmitype/",
     file: "dctype.nt",
     case_violations: :fail
 
@@ -46,7 +46,7 @@ defmodule RDF.Vocab do
   See <http://xmlns.com/foaf/spec/>
   """
   defvocab FOAF,
-    base_uri: "http://xmlns.com/foaf/0.1/",
+    base_iri: "http://xmlns.com/foaf/0.1/",
     file: "foaf.nt",
     case_violations: :fail
 
@@ -57,7 +57,7 @@ defmodule RDF.Vocab do
   See <https://github.com/ewilderj/doap>
   """
   defvocab DOAP,
-    base_uri: "http://usefulinc.com/ns/doap#",
+    base_iri: "http://usefulinc.com/ns/doap#",
     file: "doap.nt",
     alias: [
       old_homepage:         "old-homepage",
@@ -81,7 +81,7 @@ defmodule RDF.Vocab do
   See <http://www.w3.org/TR/prov-o/>
   """
   defvocab PROV,
-    base_uri: "http://www.w3.org/ns/prov#",
+    base_iri: "http://www.w3.org/ns/prov#",
     file: "prov.nt",
     case_violations: :fail
 
@@ -92,7 +92,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/TR/vocab-data-cube/>
   """
   defvocab QB,
-    base_uri: "http://purl.org/linked-data/cube#",
+    base_iri: "http://purl.org/linked-data/cube#",
     file: "cube.nt",
     case_violations: :fail
 
@@ -103,7 +103,7 @@ defmodule RDF.Vocab do
   See <http://www.w3.org/TR/vocab-dcat/>
   """
   defvocab DCAT,
-    base_uri: "http://www.w3.org/ns/dcat#",
+    base_iri: "http://www.w3.org/ns/dcat#",
     file: "dcat.nt",
     case_violations: :fail
 
@@ -114,7 +114,7 @@ defmodule RDF.Vocab do
   See <http://vocab.deri.ie/void>
   """
   defvocab VoID,
-    base_uri: "http://rdfs.org/ns/void#",
+    base_iri: "http://rdfs.org/ns/void#",
     file: "void.nt",
     case_violations: :fail
 
@@ -123,7 +123,7 @@ defmodule RDF.Vocab do
   The SemWeb Vocab Status ontology.
   """
   defvocab VS,
-    base_uri: "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    base_iri: "http://www.w3.org/2003/06/sw-vocab-status/ns#",
     file: "vs.nt",
     case_violations: :fail
 
@@ -134,7 +134,7 @@ defmodule RDF.Vocab do
   See <http://lov.okfn.org/vocommons/voaf>
   """
   defvocab VOAF,
-    base_uri: "http://purl.org/vocommons/voaf#",
+    base_iri: "http://purl.org/vocommons/voaf#",
     file: "voaf.nt",
     case_violations: :fail
 
@@ -145,7 +145,7 @@ defmodule RDF.Vocab do
   See <http://vocab.org/vann/>
   """
   defvocab VANN,
-    base_uri: "http://purl.org/vocab/vann/",
+    base_iri: "http://purl.org/vocab/vann/",
     file: "vann.nt",
     ignore: ~w[vann-vocab-20040305],
     case_violations: :fail
@@ -157,7 +157,7 @@ defmodule RDF.Vocab do
   See <http://rdfs.org/sioc/spec/>
   """
   defvocab SIOC,
-    base_uri: "http://rdfs.org/sioc/ns#",
+    base_iri: "http://rdfs.org/sioc/ns#",
     file: "sioc.nt",
     case_violations: :fail
 
@@ -168,7 +168,7 @@ defmodule RDF.Vocab do
   See <http://schema.org>
   """
   defvocab Schema,
-    base_uri: "http://schema.org/",
+    base_iri: "http://schema.org/",
     file: "schema.nt",
     case_violations: :ignore
 
@@ -179,7 +179,7 @@ defmodule RDF.Vocab do
   See <http://www.heppnetz.de/ontologies/goodrelations/v1>
   """
   defvocab GR,
-    base_uri: "http://purl.org/goodrelations/v1#",
+    base_iri: "http://purl.org/goodrelations/v1#",
     file: "gr.nt",
     alias: [
       hasEAN_UCC13: "hasEAN_UCC-13",
@@ -199,7 +199,7 @@ defmodule RDF.Vocab do
   See <https://creativecommons.org/ns>
   """
   defvocab CC,
-    base_uri: "http://creativecommons.org/ns#",
+    base_iri: "http://creativecommons.org/ns#",
     file: "cc.nt",
     case_violations: :fail
 
@@ -210,7 +210,7 @@ defmodule RDF.Vocab do
   See <http://bibliontology.com/>
   """
   defvocab BIBO,
-    base_uri: "http://purl.org/ontology/bibo/",
+    base_iri: "http://purl.org/ontology/bibo/",
     file: "bibo.nt",
     ignore: ~w[bdarcus fgiasson],
     case_violations: :fail
@@ -222,7 +222,7 @@ defmodule RDF.Vocab do
   See <http://vocab.org/bio/>
   """
   defvocab BIO,
-    base_uri: "http://purl.org/vocab/bio/0.1/",
+    base_iri: "http://purl.org/vocab/bio/0.1/",
     file: "bio.nt",
     alias: [
       Termgroup1: "termgroup1",
@@ -240,7 +240,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/TR/vcard-rdf/>
   """
   defvocab VCard,
-    base_uri: "http://www.w3.org/2006/vcard/ns#",
+    base_iri: "http://www.w3.org/2006/vcard/ns#",
     file: "vcard.nt",
     alias: [
       additional_name: "additional-name",
@@ -267,7 +267,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/TR/vocab-org/>
   """
   defvocab Org,
-    base_uri: "http://www.w3.org/ns/org#",
+    base_iri: "http://www.w3.org/ns/org#",
     file: "org.nt",
     case_violations: :fail
 
@@ -278,7 +278,7 @@ defmodule RDF.Vocab do
   See <http://web.resource.org/rss/1.0/>
   """
   defvocab RSS,
-    base_uri: "http://purl.org/rss/1.0/",
+    base_iri: "http://purl.org/rss/1.0/",
     file: "rss.nt",
     alias: [
       Channel: "channel",
@@ -293,7 +293,7 @@ defmodule RDF.Vocab do
   The Content vocabulary.
   """
   defvocab CNT,
-    base_uri: "http://www.w3.org/2011/content#",
+    base_iri: "http://www.w3.org/2011/content#",
     file: "cnt.nt",
     case_violations: :fail
 
@@ -304,7 +304,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/TR/mediaont-10/>
   """
   defvocab MA,
-    base_uri: "http://www.w3.org/ns/ma-ont#",
+    base_iri: "http://www.w3.org/ns/ma-ont#",
     file: "ma.nt",
     case_violations: :fail
 
@@ -325,7 +325,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/2003/12/exif/>
   """
   defvocab EXIF,
-    base_uri: "http://www.w3.org/2003/12/exif/ns#",
+    base_iri: "http://www.w3.org/2003/12/exif/ns#",
     file: "exif.nt",
     case_violations: :fail
 
@@ -336,7 +336,7 @@ defmodule RDF.Vocab do
   See <http://musicontology.com/specification/>
   """
   defvocab MO,
-    base_uri: "http://purl.org/ontology/mo/",
+    base_iri: "http://purl.org/ontology/mo/",
     file: "mo.nt",
     alias: [
       Album: "album",
@@ -353,7 +353,7 @@ defmodule RDF.Vocab do
       Soundtrack: "soundtrack",
       Spokenword: "spokenword",
     ],
-    ignore: ~w[mit], # a different vocabulary for musical instruments
+    ignore: ~w[mit#], # a different vocabulary for musical instruments
     case_violations: :ignore
 
 
@@ -363,7 +363,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/TR/owl-time/>
   """
   defvocab Time,
-    base_uri: "http://www.w3.org/2006/time#",
+    base_iri: "http://www.w3.org/2006/time#",
     file: "time.nt",
     alias: [
       GeneralDay:   "generalDay",
@@ -387,7 +387,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/2003/01/geo/>
   """
   defvocab Geo,
-    base_uri: "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    base_iri: "http://www.w3.org/2003/01/geo/wgs84_pos#",
     file: "geo.nt",
     case_violations: :fail
 
@@ -398,7 +398,7 @@ defmodule RDF.Vocab do
   See <http://geojson.org/geojson-ld/>
   """
   defvocab GeoJSON,
-    base_uri: "https://purl.org/geojson/vocab#",
+    base_iri: "https://purl.org/geojson/vocab#",
     file: "geojson.nt",
     case_violations: :fail
 
@@ -409,7 +409,7 @@ defmodule RDF.Vocab do
   See <https://www.hydra-cg.com/spec/latest/core/>
   """
   defvocab Hydra,
-    base_uri: "http://www.w3.org/ns/hydra/core#",
+    base_iri: "http://www.w3.org/ns/hydra/core#",
     file: "hydra.nt",
     # TODO: Hydra.Rfc6570Template is a rdfs:Datatype AND a rdf:Property by using rdfs:range ... !?
     case_violations: :ignore 
@@ -421,7 +421,7 @@ defmodule RDF.Vocab do
   See <https://www.w3.org/TR/ldp/>
   """
   defvocab LDP,
-    base_uri: "http://www.w3.org/ns/ldp#",
+    base_iri: "http://www.w3.org/ns/ldp#",
     file: "ldp.nt",
     # TODO: LDP.PreferEmptyContainer is a owl:Individual AND a rdf:Property by using owl:equivalentProperty ... !?
     case_violations: :ignore 
