@@ -38,7 +38,7 @@ defmodule RDF.Vocab.Mixfile do
       maintainers: ["Marcel Otto"],
       licenses: ["MIT"],
       links: %{"GitHub" => @repo_url},
-      files: ~w[lib priv mix.exs README.md LICENSE.md]
+      files: ~w[lib priv mix.exs README.md CHANGELOG.md LICENSE.md]
     ]
   end
 
